@@ -7,12 +7,13 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>View Courses</title>
+    <title>View Courses & Teachers</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #456990;
         }
 
         nav {
@@ -36,11 +37,11 @@
         }
 
         nav a:hover {
-            color: #2ecc71; /* Highlight color on hover */
+            color: #2ecc71;
         }
 
         h2 {
-            color: #2ecc71; /* Header color */
+            color: #2ecc71;
         }
 
         table {
@@ -48,6 +49,7 @@
             margin: 20px auto;
             border-collapse: collapse;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #555;
         }
 
         th, td {
@@ -57,12 +59,12 @@
         }
 
         th {
-            background-color: #2ecc71; /* Header background color */
+            background-color: #2ecc71;
             color: #fff;
         }
 
         tbody tr:hover {
-            background-color: #f5f5f5; /* Row background color on hover */
+            background-color: #f5f5f5;
         }
 
         p {

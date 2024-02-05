@@ -57,7 +57,7 @@
     </header>
     <section>
         <h2>About the project</h2>
-        <p>Welcome to the Marksheet Generation Project a comprehensive tool designed to streamline the process for teachers in managing student details and effortlessly generating accurate marksheets. This project is built on a robust foundation, combining the power of Java, Spring Boot, Spring JPA, JSP, and MySQL for a seamless and efficient user experience..</p>
+        <p>Welcome to the Marksheet Generation Project a comprehensive tool designed to streamline the process for teachers in managing student details and effortlessly generating accurate marksheets. This project is built on a robust foundation, combining the power of Java, Spring Boot, Spring JPA, JSP, and MySQL for a seamless and efficient user experience.</p>
 
         <h2>About Me</h2>
         <p>Greetings! My name is Rushabh Jaiswal. I am a passionate Java developer with a flair for creating robust and efficient solutions. With a keen eye for detail and a commitment to excellence, I thrive in crafting clean and maintainable code. My journey as a Java developer has equipped me with the skills to tackle complex challenges and deliver innovative solutions. Whether it's building scalable applications or diving into the intricacies of backend development, I am dedicated to contributing to the world of Java development with enthusiasm and expertise. Let's code and create something extraordinary together!</p>

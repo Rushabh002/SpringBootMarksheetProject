@@ -11,6 +11,7 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #456990;
         }
 
         nav {
@@ -46,6 +47,7 @@
             margin: 20px auto;
             border-collapse: collapse;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #555;
         }
 
         th, td {
