@@ -43,11 +43,14 @@ public class FormController {
         marksheet.setStudent(student);
         student.setMarksheet(marksheet);
         studentRepo.save(student);
+
+        System.out.println("TEST");
         return "save";
     }
     @RequestMapping("/del")
     public String del(){
 
+        System.out.println("DELETE");
         return "del";
     }
 
