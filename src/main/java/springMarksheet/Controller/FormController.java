@@ -46,7 +46,6 @@ public class FormController {
 
         System.out.println("TEST");
 
-        System.out.printf("one tow");
         return "save";
     }
     @RequestMapping("/del")
