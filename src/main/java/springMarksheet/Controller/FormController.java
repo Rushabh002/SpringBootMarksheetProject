@@ -45,6 +45,8 @@ public class FormController {
         studentRepo.save(student);
 
         System.out.println("TEST");
+
+        System.out.printf("one tow");
         return "save";
     }
     @RequestMapping("/del")
