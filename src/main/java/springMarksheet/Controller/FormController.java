@@ -57,6 +57,7 @@ public class FormController {
     @RequestMapping("/delete")
     public String delete(@RequestParam("rollNo") int roll){
         studentRepo.deleteById(roll);
+        System.out.println("NEW");
         return "delete";
     }
 
