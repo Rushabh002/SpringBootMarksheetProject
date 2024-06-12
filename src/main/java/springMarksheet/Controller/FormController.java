@@ -60,6 +60,7 @@ public class FormController {
     public String delete(@RequestParam("rollNo") int roll){
         studentRepo.deleteById(roll);
         System.out.println("NEW");
+        System.out.println("new new");
         return "delete";
     }
 
