@@ -44,22 +44,17 @@ public class FormController {
         student.setMarksheet(marksheet);
         studentRepo.save(student);
 
-        System.out.println("TEST");
-
         return "save";
     }
     @RequestMapping("/del")
     public String del(){
 
-        System.out.println("DELETE");
         return "del";
     }
 
     @RequestMapping("/delete")
     public String delete(@RequestParam("rollNo") int roll){
         studentRepo.deleteById(roll);
-        System.out.println("NEW");
-        System.out.println("new new");
         return "delete";
     }
 
